@@ -1,0 +1,55 @@
+tesseract eng.wholefoods.exp1.tif eng.wholefoods.exp1 batch.nochop makebox
+tesseract eng.wholefoods.exp2.tif eng.wholefoods.exp2 batch.nochop makebox
+tesseract eng.wholefoods.exp3.tif eng.wholefoods.exp3 batch.nochop makebox
+tesseract eng.wholefoods.exp4.tif eng.wholefoods.exp4 batch.nochop makebox
+tesseract eng.wholefoods.exp5.tif eng.wholefoods.exp5 batch.nochop makebox
+tesseract eng.wholefoods.exp6.tif eng.wholefoods.exp6 batch.nochop makebox
+tesseract eng.wholefoods.exp7.tif eng.wholefoods.exp7 batch.nochop makebox
+tesseract eng.wholefoods.exp8.tif eng.wholefoods.exp8 batch.nochop makebox
+tesseract eng.wholefoods.exp9.tif eng.wholefoods.exp9 batch.nochop makebox
+tesseract eng.wholefoods.exp10.tif eng.wholefoods.exp10 batch.nochop makebox
+tesseract eng.wholefoods.exp11.tif eng.wholefoods.exp11 batch.nochop makebox
+tesseract eng.wholefoods.exp12.tif eng.wholefoods.exp12 batch.nochop makebox
+tesseract eng.wholefoods.exp13.tif eng.wholefoods.exp13 batch.nochop makebox
+tesseract eng.wholefoods.exp14.tif eng.wholefoods.exp14 batch.nochop makebox
+tesseract eng.wholefoods.exp15.tif eng.wholefoods.exp15 batch.nochop makebox
+tesseract eng.wholefoods.exp16.tif eng.wholefoods.exp16 batch.nochop makebox
+tesseract eng.wholefoods.exp17.tif eng.wholefoods.exp17 batch.nochop makebox
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp18 batch.nochop makebox
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp19 batch.nochop makebox
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp20 batch.nochop makebox
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp21 batch.nochop makebox
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp22 batch.nochop makebox
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp23 batch.nochop makebox
+
+
+tesseract eng.wholefoods.exp1.tif eng.wholefoods.exp1 box.train
+tesseract eng.wholefoods.exp2.tif eng.wholefoods.exp2 box.train
+tesseract eng.wholefoods.exp3.tif eng.wholefoods.exp3 box.train
+tesseract eng.wholefoods.exp4.tif eng.wholefoods.exp4 box.train
+tesseract eng.wholefoods.exp5.tif eng.wholefoods.exp5 box.train
+tesseract eng.wholefoods.exp6.tif eng.wholefoods.exp6 box.train
+tesseract eng.wholefoods.exp7.tif eng.wholefoods.exp7 box.train
+tesseract eng.wholefoods.exp8.tif eng.wholefoods.exp8 box.train
+tesseract eng.wholefoods.exp9.tif eng.wholefoods.exp9 box.train
+tesseract eng.wholefoods.exp10.tif eng.wholefoods.exp10 box.train
+tesseract eng.wholefoods.exp11.tif eng.wholefoods.exp11 box.train
+tesseract eng.wholefoods.exp12.tif eng.wholefoods.exp12 box.train
+tesseract eng.wholefoods.exp13.tif eng.wholefoods.exp13 box.train
+tesseract eng.wholefoods.exp14.tif eng.wholefoods.exp14 box.train
+tesseract eng.wholefoods.exp15.tif eng.wholefoods.exp15 box.train
+tesseract eng.wholefoods.exp16.tif eng.wholefoods.exp16 box.train
+tesseract eng.wholefoods.exp17.tif eng.wholefoods.exp17 box.train
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp18 box.train
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp19 box.train
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp20 box.train
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp21 box.train
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp22 box.train
+tesseract eng.wholefoods.exp18.tif eng.wholefoods.exp23 box.train
+
+unicharset_extractor  eng.wholefoods.exp1.box eng.wholefoods.exp2.box eng.wholefoods.exp3.box eng.wholefoods.exp4.box eng.wholefoods.exp5.box eng.wholefoods.exp6.box eng.wholefoods.exp7.box eng.wholefoods.exp8.box eng.wholefoods.exp9.box eng.wholefoods.exp10.box eng.wholefoods.exp11.box eng.wholefoods.exp12.box eng.wholefoods.exp13.box eng.wholefoods.exp14.box eng.wholefoods.exp15.box eng.wholefoods.exp16.box eng.wholefoods.exp17.box eng.wholefoods.exp18.box eng.wholefoods.exp19.box eng.wholefoods.exp20.box eng.wholefoods.exp21.box eng.wholefoods.exp22.box eng.wholefoods.exp23.box
+
+shapeclustering -F wholefoods.font_properties -U unicharset eng.wholefoods.exp1.tr eng.wholefoods.exp2.tr eng.wholefoods.exp3.tr eng.wholefoods.exp4.tr eng.wholefoods.exp5.tr eng.wholefoods.exp6.tr eng.wholefoods.exp7.tr eng.wholefoods.exp8.tr eng.wholefoods.exp9.tr eng.wholefoods.exp10.tr eng.wholefoods.exp11.tr eng.wholefoods.exp12.tr eng.wholefoods.exp13.tr eng.wholefoods.exp14.tr eng.wholefoods.exp15.tr eng.wholefoods.exp16.tr eng.wholefoods.exp17.tr eng.wholefoods.exp18.tr
+mftraining  -F wholefoods.font_properties -U unicharset eng.wholefoods.exp1.tr eng.wholefoods.exp2.tr eng.wholefoods.exp3.tr eng.wholefoods.exp4.tr eng.wholefoods.exp5.tr eng.wholefoods.exp6.tr eng.wholefoods.exp7.tr eng.wholefoods.exp8.tr eng.wholefoods.exp9.tr eng.wholefoods.exp10.tr eng.wholefoods.exp11.tr eng.wholefoods.exp12.tr eng.wholefoods.exp13.tr eng.wholefoods.exp14.tr eng.wholefoods.exp15.tr eng.wholefoods.exp16.tr eng.wholefoods.exp17.tr eng.wholefoods.exp18.tr
+cntraining eng.wholefoods.exp1.tr eng.wholefoods.exp2.tr eng.wholefoods.exp3.tr eng.wholefoods.exp4.tr eng.wholefoods.exp5.tr eng.wholefoods.exp6.tr eng.wholefoods.exp7.tr eng.wholefoods.exp8.tr eng.wholefoods.exp9.tr eng.wholefoods.exp10.tr eng.wholefoods.exp11.tr eng.wholefoods.exp12.tr eng.wholefoods.exp13.tr eng.wholefoods.exp14.tr eng.wholefoods.exp15.tr eng.wholefoods.exp16.tr eng.wholefoods.exp17.tr eng.wholefoods.exp18.tr
+
