@@ -82,10 +82,15 @@ image = imutils.resize(image, height=500)
 
 # convert the image to grayscale, blur it, and find edges
 # in the image
+
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+equalized = cv2.equalizeHist(gray)
 # gray = cv2.GaussianBlur(gray, (5, 5), 0)
-dilated = cv2.dilate(gray, np.ones((5, 5), np.uint8), iterations=1)
-cv2.imshow("Gray", dilated)
+dilated = cv2.dilate(gray, np.ones((45, 45), np.uint8), iterations=1)
+# dilated = cv2.erode(dilated, np.ones((45, 45), np.uint8), iterations=3)
+cv2.imshow("Gray", gray)
+cv2.imshow("equalized", equalized)
+# edged = cv2.Canny(dilated, 30, 140)
 edged = cv2.Canny(dilated, 30, 140)
 
 # show the original image and the edge detected image
@@ -98,14 +103,25 @@ cv2.destroyAllWindows()
 
 # find the contours in the edged image, keeping only the
 # largest ones, and initialize the screen contour
-(_, cnts, _) = cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
-cnts = sorted(cnts, key=cv2.contourArea, reverse=True)[:5]
+(_, cnts, _) = cv2.findContours(edged, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+cnts = sorted(cnts, key=lambda cnt: cv2.arcLength(cnt, True), reverse=True)[:5]
 
 # loop over the contours
 for c in cnts:
     # approximate the contour
     peri = cv2.arcLength(c, True)
     approx = cv2.approxPolyDP(c, 0.03 * peri, True)
+    rect = cv2.boundingRect(c)
+    box = cv2.boxPoints(rect)
+    box = np.int0(box)
+    # hull = cv2.convexHull(c)
+    tst = image.copy()
+    cv2.drawContours(tst, [approx], -1, (0, 255, 0), 2)
+    cv2.drawContours(tst, [box], -1, (0, 255, 0), 2)
+    # cv2.drawContours(tst, [x, y, w, h], -1, (255, 255, 0), 2)
+    cv2.imshow("contour", tst)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
     # if our approximated contour has four points, then we
     # can assume that we have found our screen
     if len(approx) == 4:
@@ -144,8 +160,8 @@ cv2.imshow("Scanned", imutils.resize(warped, height=650))
 cv2.waitKey(0)
 
 # reduced=np.array([])
-parse(warped)
+# parse(warped)
 print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-parse(image)
+# parse(image)
 
-cv2.imwrite("warped.jpg", warped)
+cv2.imwrite("warped_"+ args["image"], warped)

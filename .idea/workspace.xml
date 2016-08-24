@@ -2,9 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26f2c54-81cd-4f5a-84e4-31ee3a97ecd8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rec1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rec2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warped.jpg" afterPath="$PROJECT_DIR$/warped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rec3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rec4.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_rec1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_rec2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp1.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp1.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp1.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp10.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp10.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp10.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp11.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp11.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp11.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp12.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp12.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp12.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp13.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp13.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp13.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp14.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp14.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp14.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp15.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp15.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp15.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp16.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp16.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp16.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp17.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp17.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp17.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp18.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp18.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp18.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp19.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp19.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp19.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp2.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp2.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp2.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp20.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp20.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp20.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp21.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp21.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp21.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp22.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp22.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp22.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp23.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp23.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp23.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp3.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp3.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp3.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp4.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp4.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp4.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp5.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp5.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp5.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp6.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp6.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp6.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp7.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp7.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp7.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp8.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp8.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp8.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp9.box" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp9.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp9.tr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/eng.wholefoods.exp9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/tessdata/wholefoods.traineddata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.font_properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.frequent_words_list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.inttemp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.normproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.pffmtable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.shapetable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.traineddata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.unicharambigs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.unicharset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train/wholefoods.words_list" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
@@ -29,29 +133,12 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state relative-caret-position="197">
+              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
               <folding>
                 <element signature="e#15#57#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-762174762/cv2/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="2160" column="4" selection-start-line="2160" selection-start-column="4" selection-end-line="2160" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_rec1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_rec1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -88,6 +175,13 @@
                 <element signature="e#32#50#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rec2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rec2.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -162,8 +256,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -319,7 +413,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="image" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="-i rec1.jpg" />
+      <option name="PARAMETERS" value="-i rec4.jpg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -348,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470236986965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second version">
+      <created>1471437265545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1471437265545</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -357,6 +458,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25285172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -405,10 +507,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="second version" />
+    <option name="LAST_COMMIT_MESSAGE" value="second version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -416,11 +536,62 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-762174762/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36720">
+          <caret line="2160" column="4" selection-start-line="2160" selection-start-column="4" selection-end-line="2160" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_rec1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receipt.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warped.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/imutils/convenience.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="46" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="e#32#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -595,11 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_rec2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/skimage/filters/thresholding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -620,30 +786,15 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ru_RU.dic" />
+    <entry file="file://$PROJECT_DIR$/warped_rec1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_rec1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-762174762/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="2160" column="4" selection-start-line="2160" selection-start-column="4" selection-end-line="2160" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rec2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru_RU.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/transform.py">
@@ -656,10 +807,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_rec2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warped_rec2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rec2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rec3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-762174762/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1804" column="4" selection-start-line="1804" selection-start-column="4" selection-end-line="1804" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
           <folding>
             <element signature="e#15#57#0" expanded="true" />
           </folding>
